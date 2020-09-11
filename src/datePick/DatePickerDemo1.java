@@ -13,7 +13,7 @@ public class DatePickerDemo1 {
 	public static void main(String[] args) {
 		
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jacke\\OneDrive\\Desktop\\DriversForSelenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jacke\\OneDrive\\Desktop\\DriversForSelenium\\chromedriverwin32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.expedia.com");
 		String monthyear="Oct 2020";
@@ -33,7 +33,7 @@ public class DatePickerDemo1 {
 //		}
 //			
 		
-
+	
 	}
 
 }
